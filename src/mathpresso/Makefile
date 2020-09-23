@@ -4,7 +4,8 @@ AR		:= ar
 RANLIB	:= ranlib
 
 SOURCE	:= $(wildcard *.c) $(wildcard *.cpp)
-SOURCE	+= $(wildcard asmjit/core*.c) $(wildcard asmgit/x86/*.cpp)
+SOURCE	+= $(wildcard asmjit/core/*.c) $(wildcard asmjit/core/*.cpp)
+SOURCE	+= $(wildcard asmjit/x86/*.c) $(wildcard asmjit/x86/*.cpp)
 
 $(warning $(SOURCE) )
 
