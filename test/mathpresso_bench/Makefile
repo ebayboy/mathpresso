@@ -9,7 +9,7 @@ LIB = -L /usr/local/benchmark/lib64/
 
 CFLAGS = -O3 -c -std=c++17 -Wall
 
-LDFLAGS = -lbenchmark -lpthread -lmathpresso 
+LDFLAGS = -lbenchmark -lpthread libmathpresso.a
 
 SRC_C :=
 
